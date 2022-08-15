@@ -6,8 +6,8 @@
     Table of Contents
 
   1. Predefined Variables
-  2. Preloader  
-  3. Menu  
+  2. Preloader
+  3. Menu
   4. FullScreen
   5. Counter
   6. Banner Slider
@@ -26,7 +26,7 @@
   19. Parallax
   20. Active Class
   21. Wow Animation
-  22. HT Window load and functions  
+  22. HT Window load and functions
 
 ------------------------ */
 
@@ -101,10 +101,10 @@ function fullScreen() {
 /*------------------------------------
   HT Counter
 --------------------------------------*/
-function counter() {  
+function counter() {
   $('.count-number').countTo({
     refreshInterval: 2
-  });   
+  });
 };
 
 
@@ -118,7 +118,7 @@ $('.banner-slider').each( function() {
       items:1,
       loop : true,
       dots : $carousel.data("dots"),
-      nav : $carousel.data("nav"),   
+      nav : $carousel.data("nav"),
       autoplay : true,
       autoplayTimeout : 6000,
       navText : [ '<span class="las la-angle-left"><span>', '<span class="las la-angle-right"></span>' ],
@@ -141,7 +141,7 @@ $('.owl-carousel').each( function() {
       loop : true,
       margin : $carousel.data("margin"),
       dots : $carousel.data("dots"),
-      nav : $carousel.data("nav"),     
+      nav : $carousel.data("nav"),
       autoplay : $carousel.data("autoplay"),
       autoplayTimeout : $carousel.data("autoplay-timeout"),
       navText : [ '<span class="las la-long-arrow-alt-left"><span>', '<span class="las la-long-arrow-alt-right"></span>' ],
@@ -189,7 +189,7 @@ if ($(".popup-youtube, .popup-vimeo, .popup-gmaps").exists()) {
     });
   }
 
-};     
+};
 
 
 /*------------------------------------
@@ -247,10 +247,10 @@ function fxheader() {
 ---------------------------------------------*/
 function databgcolor() {
     $('[data-bg-color]').each(function(index, el) {
-     $(el).css('background-color', $(el).data('bg-color'));  
+     $(el).css('background-color', $(el).data('bg-color'));
     });
     $('[data-text-color]').each(function(index, el) {
-     $(el).css('color', $(el).data('text-color'));  
+     $(el).css('color', $(el).data('text-color'));
     });
     $('[data-bg-img]').each(function() {
      $(this).css('background-image', 'url(' + $(this).data("bg-img") + ')');
@@ -261,7 +261,7 @@ function databgcolor() {
 /*------------------------------------
   HT Contact Form
 --------------------------------------*/
-function contactform() { 
+/*function contactform() {
     // when the form is submitted
     $('#contact-form, #queto-form').on('submit', function (e) {
 
@@ -280,8 +280,8 @@ function contactform() {
         });
         return false;
     }
- })    
-};
+ })
+};*/
 
 
 /*------------------------------------
@@ -296,7 +296,7 @@ function contactform() {
           var progressValue = Self.data('value');
 
           Self.find('.progress-bar').animate({
-            width:progressValue+'%'           
+            width:progressValue+'%'
           }, 1000);
         });
       })
@@ -330,7 +330,7 @@ function imagegallery() {
     slideMargin:0,
     speed:600,
     autoplay: true,
- });  
+ });
 }
 
 
@@ -365,7 +365,7 @@ function parallax() {
 /*------------------------------------
   HT Search
 --------------------------------------*/
-function search() { 
+function search() {
   // Search Toggle
   $("#search-input-box").hide();
   $("#search").on("click", function () {
@@ -409,7 +409,7 @@ function wowanimation() {
 /*------------------------------------
   HT Window load and functions
 --------------------------------------*/
-$(document).ready(function() {    
+$(document).ready(function() {
     fullScreen(),
     dropdown(),
     bannerslider(),
@@ -420,7 +420,7 @@ $(document).ready(function() {
     headerheight(),
     fxheader(),
     databgcolor(),
-    contactform(),  
+    contactform(),
     progressbar(),
     countdown(),
     imagegallery(),
@@ -436,7 +436,7 @@ $window.resize(function() {
 
 
 $(window).on('load', function() {
-    preloader(),    
+    preloader(),
     wowanimation();
 });
 

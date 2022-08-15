@@ -2,18 +2,105 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactanosMailable;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
     /**
-     * Handle the incoming request.
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $services = [
+            'Seleccionar un servicio',
+            'Dirección Técnica',
+            'Aseguramientos de Calidad',
+            'Habilitaciones de Establecimiento',
+            'Registro Sanitarios'
+        ];
+
+        return view('home',['services'=>$services]);
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function __invoke(Request $request)
+    public function store(Request $request)
     {
-        return view('home');
+        $validatedData = $request->validate([
+            'name' => ['required', 'max:255'],
+            'email' => ['required', 'email'],
+            'phone' => ['required'],
+            'service' => ['required'],
+            'message'=> ['required']
+        ]);
+
+        $correo = new ContactanosMailable($validatedData);
+
+        Mail::to('matias25pinto@gmail.com')->send($correo);
+
+        return redirect('/')->with('status','Mensaje enviado con éxito gracias por contactarnos.');
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //
     }
 }
