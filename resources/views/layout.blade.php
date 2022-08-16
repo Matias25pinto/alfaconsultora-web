@@ -4,21 +4,21 @@
 
     <!-- meta tags -->
     <meta charset="utf-8">
-    <meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, scss, saas, rtl, Laboratory, medical" />
-    <meta name="description" content="Laboratory & Science Research HTML5 Template" />
-    <meta name="author" content="www.themeht.com" />
+    <meta name="keywords" content="alfaconsultora, consultora, mic, aduanas, digesa, senacsa, senave, dinavisa, inan, mades" />
+    <meta name="description" content="Somos una consultora innovadora adaptada a los cambios constantes del mercado y entes reguladores, capaz de enfrentar los desafíos actuales con profesionalismo." />
+    <meta name="author" content="www.alfaconsultora.com.py" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
     <title>Alfa - Consultora</title>
 
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.ico?v=1.3" />
+    <link rel="shortcut icon" href="images/favicon.ico?v=1.4" />
 
     <!-- inject css start -->
 
     <!--== bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
@@ -26,31 +26,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!--== animate -->
-    <link href="css/animate.css?v=1.2" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== line-awesome -->
-    <link href="css/line-awesome.min.css?v=1.2" rel="stylesheet" type="text/css" />
+    <link href="css/line-awesome.min.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== magnific-popup -->
-    <link href="css/magnific-popup.css?v=1.2" rel="stylesheet" type="text/css" />
+    <link href="css/magnific-popup.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== owl.carousel -->
-    <link href="css/owl.carousel.css?v=1.2" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== lightslider -->
-    <link href="css/lightslider.min.css?v=1.2" rel="stylesheet" type="text/css" />
+    <link href="css/lightslider.min.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== base -->
-    <link href="css/base.css?v=1.3" rel="stylesheet" type="text/css" />
+    <link href="css/base.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== shortcodes -->
-    <link href="css/shortcodes.css?v=1.3" rel="stylesheet" type="text/css" />
+    <link href="css/shortcodes.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== spacing -->
-    <link href="css/spacing.css?v=1.3" rel="stylesheet" type="text/css" />
+    <link href="css/spacing.css?v=1.4" rel="stylesheet" type="text/css" />
 
     <!--== style -->
-    <link href="css/style.css?v=1.3" rel="stylesheet" type="text/css" />
+    <link href="css/style.css?v=1.5" rel="stylesheet" type="text/css" />
 
     <!-- inject css end -->
 
@@ -98,7 +98,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-12 white-bg p-4 p-md-6">
                         <a class="footer-logo" href="{{route('index')}}">
-                            <img id="footer-logo" class="img-fluid" src="images/logo.png?v=1" alt="">
+                            <img id="footer-logo" class="img-fluid" src="images/logo.png?v=1.4" alt="">
                         </a>
                         <p class="my-4">Un equipo de consultores técnicos comprometidos y reconocidos en el ámbito de asuntos regulatorios brindando resultados solidos satisfactorios a las necesidades del cliente.</p>
                         <div class="social-icons social-colored footer-social">
@@ -175,13 +175,13 @@
 <!-- inject js start -->
 
 <!--== jquery -->
-<script src="js/theme.js"></script>
+<script src="js/theme.js?v=1.4"></script>
 
 <!--== theme-plugin -->
-<script src="js/theme-plugin.js"></script>
+<script src="js/theme-plugin.js?v=1.4"></script>
 
 <!--== theme-script -->
-<script src="js/theme-script.js"></script>
+<script src="js/theme-script.js?v=1.4"></script>
 
 <!-- inject js end -->
 

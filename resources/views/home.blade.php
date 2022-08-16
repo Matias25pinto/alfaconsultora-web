@@ -9,7 +9,7 @@
                     <div class="col">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand logo" href="{{route('index')}}">
-                                <img id="logo-img" class="img-fluid" src="images/logo.png?v=1" alt="">
+                                <img id="logo-img" class="img-fluid" src="images/logo.png?v=1.4" alt="">
                             </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
                                 <span></span>
@@ -39,7 +39,7 @@
     <!--hero section start-->
     <section id="inicio"  class="banner p-0 pos-r fullscreen-banner">
         <div class="banner-slider owl-carousel no-pb" data-dots="false" data-nav="true">
-            <div class="item hero-overlay" data-bg-img="images/bg/01.jpg" data-overlay="6">
+            <div class="item hero-overlay" data-bg-img="images/bg/01_nuevo.jpg" data-overlay="6">
                 <div class="align-center pt-0">
                     <div class="container">
                         <div class="row">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item hero-overlay" data-bg-img="images/bg/02.jpg" data-overlay="6">
+            <div class="item hero-overlay" data-bg-img="images/bg/02_nuevo.jpg" data-overlay="6">
                 <div class="align-center pt-0">
                     <div class="container">
                         <div class="row">
@@ -73,7 +73,7 @@
                 <div class="col-12 mt-2 text-center">
                     <h1 class="title">Alfa Consultora Integral</h1>
                     <p class="text-black font-w-5">www.alfaconsultora.com.py</p>
-                   </div>
+                </div>
             </div>
             <div class="row align-items-start justify-content-between">
 
@@ -358,4 +358,8 @@
         <!--map end-->
     </div>
     <!--body content end-->
+
+    <!--Boton de whatsApp start -->
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png?v=1.4" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/595981823921?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio'">
+    <!--Boton de whatsApp end -->
 @endsection
