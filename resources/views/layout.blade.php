@@ -8,6 +8,7 @@
     <meta name="description" content="Somos una consultora innovadora adaptada a los cambios constantes del mercado y entes reguladores, capaz de enfrentar los desafíos actuales con profesionalismo." />
     <meta name="author" content="www.alfaconsultora.com.py" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="-FVY5iuGYdskUbP-vHuRvVzciFAfHJcxeH9BnRybcw4" />
 
     <!-- Title -->
     <title>Alfa - Consultora</title>
@@ -136,7 +137,7 @@
                                         <li> <i class="flaticon-hospital"></i>
                                             <p class="mb-0">Asunción - Paraguay</p>
                                         </li>
-                                        <li><i class="flaticon-medical-report"></i>  <a href="mailto:themeht23@gmail.com">correo@gmail.com</a>
+                                        <li><i class="flaticon-medical-report"></i>  <a href="mailto:cinthiaocampos@alfaconsultora.com.py">cinthiaocampos@alfaconsultora.com.py</a>
                                         </li>
                                         <li><i class="flaticon-medical-assistance"></i>  <a href="tel:+595981823921">0981 823 921</a>
                                         </li>

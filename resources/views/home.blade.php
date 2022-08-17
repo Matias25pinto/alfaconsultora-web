@@ -311,9 +311,9 @@
                                 <div class="contact-media mb-4">
                                     <h5 class="text-white">Contactanos:</h5>
                                     <ul class="list-unstyled">
-                                        <li class="mb-2">Teléfono: <a href="tel:+595981823921">0981 823 921</a>
+                                        <li class="mb-2"><a href="tel:+595981823921">0981 823 921</a>
                                         </li>
-                                        <li>Email: <a href="mailto:themeht23@gmail.com"> correo@gmail.com</a>
+                                        <li><a href="mailto:cinthiaocampos@alfaconsultora.com.py">cinthiaocampos@alfaconsultora.com.py</a>
                                         </li>
                                     </ul>
                                 </div>
